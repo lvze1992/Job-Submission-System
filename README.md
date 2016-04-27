@@ -2,6 +2,7 @@
 ## 实验室作业提交系统
 A system to upload homework for students,and also can allow faculty to publish assignments for students to view and download.
 ------------------------
+* 老师可上传文件，发布作业，添加学生；学生可上传文件，提交作业。
 * 由于系统是在使用投入使用一段时间后，才开始备份的。故数据库中已经含有部分数据。
 * 清空数据库，删除down目录下的所有文件，并添加管理员账号即可正常使用。
 * 注：<br/>
