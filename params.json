@@ -1,0 +1,6 @@
+{
+  "name": "Work-submission-sys-for-lab",
+  "tagline": "A system to upload homework for students,and also can allow faculty to publish assignments for students to view and download.",
+  "body": "# Work-Submission-Sys-for-lab\r\n## 实验室作业提交系统\r\n\r\n------------------------\r\n* 老师可上传文件，发布作业，添加学生；学生可上传文件，提交作业。\r\n* 由于系统是在使用投入使用一段时间后，才开始备份的。故数据库中已经含有部分数据。\r\n* 清空数据库，删除down目录下的所有文件，并添加管理员账号即可正常使用。\r\n* 注：<br/>\r\n<ol type='1'>\r\n<li>管理员账号密码需要经过SHA1()加密，user_type=1。<br/></li>\r\n<li>用户只能通过管理员建立班级后添加。初始密码与账号相同<br/></li>\r\n<li>上传作业后返回成功信息中的链接，包含中文，可能出现乱码导致找不到文件而无法下载。（WAMP开发环境中正常）（阿里云服务器中出现上述问题）<br/></li>\r\n<li>上传文件的大小设置为5M，还需要设置服务器上传文件大小的设置。具体是设置Apache2/bin/php.ini中的<br/>\r\nmemory_limit = 300M <br/>\r\npost_max_size = 200M<br/>\r\nupload_max_filesize = 5M<br/></li>\r\n</ol>\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
